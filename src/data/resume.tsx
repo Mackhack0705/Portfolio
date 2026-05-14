@@ -85,7 +85,7 @@ export const DATA = {
       start: "August 2024",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Build the Responsive and Scalable Ecommerce sites and their features for clients. Improved the site perfromance by 50% by caching and lazy loading, deal with complex integrations such as stripe, google analytics, wrote the playwright test cases for debugging the production level issues at development stages before production break.",
     }
   ],
   education: [

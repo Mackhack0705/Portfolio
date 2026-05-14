@@ -100,32 +100,29 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
+      title: "Mack Travel",
+      href: "https://macktravel.vercel.app/",
+      dates: "Jan 2024 - Feb 2026",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "I decided to build a SaaS which allows users to book trips, hotels and flights. This is a great way to build an audience to get interactions on your site. This was my first MERN stack project",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
+        "React.js",
+        "Express.js",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "Cloudinary",
+        "redux"
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://macktravel.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "https://res.cloudinary.com/dj9vccr8n/video/upload/v1778734457/Screen_Recording_2026-05-14_102334_wkl6hs.mp4",
     },
     {
       title: "Magic UI",

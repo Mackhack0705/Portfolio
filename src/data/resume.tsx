@@ -130,7 +130,7 @@ export const DATA = {
       dates: "May 2026 - Present",
       active: true,
       description:
-        "Open Source Repo's issue monitoring system",
+        "Open Source Repo's issue monitoring system. It helps developers to track open source issues in realtime. User receives Telegram notifications instantly whenever new issues are created.",
       technologies: [
         "Next.js",
         "Typescript",

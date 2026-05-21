@@ -103,7 +103,7 @@ export const DATA = {
       title: "Mack Travel",
       href: "https://macktravel.vercel.app/",
       dates: "Jan 2024 - Feb 2026",
-      active: true,
+      active: false,
       description:
         "I decided to build a SaaS which allows users to book trips, hotels and flights. This is a great way to build an audience to get interactions on your site. This was my first MERN stack project",
       technologies: [
@@ -125,36 +125,31 @@ export const DATA = {
         "https://res.cloudinary.com/dj9vccr8n/video/upload/v1778734457/Screen_Recording_2026-05-14_102334_wkl6hs.mp4",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Owl",
+      href: "https://owl-watcher.vercel.app/",
+      dates: "May 2026 - Present",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Open Source Repo's issue monitoring system",
       technologies: [
         "Next.js",
         "Typescript",
         "PostgreSQL",
         "Prisma",
         "TailwindCSS",
-        "Stripe",
+        "turbo repo",
         "Shadcn UI",
-        "Magic UI",
+        "Framer Motion",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://owl-watcher.vercel.app/",
           icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
+        }
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "https://res.cloudinary.com/dj9vccr8n/video/upload/v1779364775/Owl_xbw6ny.mov",
     },
     {
       title: "llm.report",

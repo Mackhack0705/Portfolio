@@ -100,31 +100,6 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Mack Travel",
-      href: "https://macktravel.vercel.app/",
-      dates: "Jan 2024 - Feb 2026",
-      active: false,
-      description:
-        "I decided to build a SaaS which allows users to book trips, hotels and flights. This is a great way to build an audience to get interactions on your site. This was my first MERN stack project",
-      technologies: [
-        "React.js",
-        "Express.js",
-        "TailwindCSS",
-        "Cloudinary",
-        "redux"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://macktravel.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://res.cloudinary.com/dj9vccr8n/video/upload/v1778734457/Screen_Recording_2026-05-14_102334_wkl6hs.mp4",
-    },
-    {
       title: "Owl",
       href: "https://owl-watcher.vercel.app/",
       dates: "May 2026 - Present",
@@ -150,6 +125,31 @@ export const DATA = {
       ],
       image: "",
       video: "https://res.cloudinary.com/dj9vccr8n/video/upload/v1779364775/Owl_xbw6ny.mov",
+    },
+    {
+      title: "Mack Travel",
+      href: "https://macktravel.vercel.app/",
+      dates: "Jan 2024 - Feb 2026",
+      active: false,
+      description:
+        "I decided to build a SaaS which allows users to book trips, hotels and flights. This is a great way to build an audience to get interactions on your site. This was my first MERN stack project",
+      technologies: [
+        "React.js",
+        "Express.js",
+        "TailwindCSS",
+        "Cloudinary",
+        "redux"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://macktravel.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://res.cloudinary.com/dj9vccr8n/video/upload/v1778734457/Screen_Recording_2026-05-14_102334_wkl6hs.mp4",
     }
   ]
 } as const;
